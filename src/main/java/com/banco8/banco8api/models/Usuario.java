@@ -3,13 +3,17 @@ package com.banco8.banco8api.models;
 import java.time.LocalDate;
 
 import jakarta.persistence.Entity;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
 @Getter
 @Setter
 @Entity
+@NoArgsConstructor
+@AllArgsConstructor
 
 public class Usuario {
 
@@ -24,4 +28,3 @@ public class Usuario {
     private ContaBancaria conta;
 
 }
-
